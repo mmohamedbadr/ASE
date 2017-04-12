@@ -79,7 +79,7 @@
       'hostname' => 'localhost',
       'username' => 'root',
       'password' => '',
-      'database' => 'template',
+      'database' => 'hr',
       'dbdriver' => 'mysqli',
       'dbprefix' => '',
       'pconnect' => FALSE,
