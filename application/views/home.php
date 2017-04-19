@@ -68,14 +68,16 @@
                 <div class="aboutus_area wow fadeInLeft">
                     <h2 class="titile">Register</h2>
                     <div class="contact_form wow fadeInLeft">
-                        <form class="submitphoto_form">
-                            <input type="text" class="wp-form-control wpcf7-text" placeholder="First name">
-                            <input type="text" class="wp-form-control wpcf7-text" placeholder="Last name">
-                            <input type="mail" class="wp-form-control wpcf7-email" placeholder="Email address">          
-                            <input type="password" class="wp-form-control wpcf7-text" placeholder="Password">
-                            <input type="password" class="wp-form-control wpcf7-text" placeholder="confirm Password">
-                            <input type="submit" value="Register" class="wpcf7-submit">
-                        </form>
+                       <!-- <form class="submitphoto_form">-->
+                            <?=form_open(base_url('applicant/register'), array('id' => 'Regform', 'class' => 'submitphoto_form'));?>
+                       <input name="fname" type="text" class="wp-form-control wpcf7-text" placeholder="First name">
+                       <input name="lname" type="text" class="wp-form-control wpcf7-text" placeholder="Last name">
+                       <input name="email" type="mail" class="wp-form-control wpcf7-email" placeholder="Email address">          
+                       <input name="pass" type="password" class="wp-form-control wpcf7-text" placeholder="Password">
+                       <input name="confpass" type="password" class="wp-form-control wpcf7-text" placeholder="confirm Password">
+                            <input name="RegForm" type="submit" value="Register" class="wpcf7-submit">
+                            <?=form_close(); ?>
+                        <!--</form>-->
                     </div>  
                 </div>
             </div>

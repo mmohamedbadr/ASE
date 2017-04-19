@@ -1,6 +1,7 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 ?>
+
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -34,7 +35,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <!-- Slick slider css file -->
         <link href="<?php echo base_url('/assets/css/slick.css'); ?>" rel="stylesheet"> 
         <!-- Circle counter cdn css file -->
-        <link rel='stylesheet prefetch' href='https://cdn.rawgit.com/pguso/jquery-plugin-circliful/master/css/jquery.circliful.css'>  
+        <link rel='stylesheet prefetch' href='<?php echo base_url('/assets/css/jquery.circliful.css');?>'>  
         <!-- smooth animate css file -->
         <link rel="stylesheet" href="<?php echo base_url('/assets/css/animate.css'); ?>"> 
         <!-- preloader -->
@@ -47,8 +48,8 @@ defined('BASEPATH') OR exit('No direct script access allowed');
         <link href="<?php echo base_url('/assets/css/style.css'); ?>" rel="stylesheet">
 
         <!-- Google fonts -->
-        <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>   
-        <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'>    
+       <!-- <link href='http://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet' type='text/css'>   
+        <link href='http://fonts.googleapis.com/css?family=Varela' rel='stylesheet' type='text/css'> -->   
 
         <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
         <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -78,7 +79,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </button>
                             <!-- LOGO -->
                             <!-- TEXT BASED LOGO -->
-                            <a class="navbar-brand" href="index.html">WpF <span>Degree</span></a>              
+                            <a class="navbar-brand" href="<?=base_url()?>">ASE <span>Applicant</span></a>              
                             <!-- IMG BASED LOGO  -->
                              <!-- <a class="navbar-brand" href="index.html"><img src="img/logo.png" alt="logo"></a>  -->            
 

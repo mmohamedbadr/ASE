@@ -15,14 +15,14 @@
 
   $config['site'] = array(
       // Site name
-      'name' => 'CI Bootstrap 3',
+      'name' => 'WpF <span>Degree</span>',
       // Default page title
       // (set empty then MY_Controller will automatically generate one based on controller / action)
-      'title' => '',
+      'title' => 'ASE Applicant system:',
       // Default meta data (name => content)
       'meta' => array(
-          'author' => 'Michael Chan (https://github.com/waifung0207)',
-          'description' => 'CI Bootstrap 3'
+          'author' => 'Badr & Mansour',
+          'description' => ''
       ),
       // Default scripts to embed at page head / end
       'scripts' => array(

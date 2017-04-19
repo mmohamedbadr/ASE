@@ -22,7 +22,6 @@
   public
           function sign_up() {
   $form = $this->form_builder->create_form();
-
   if ($form->validate()) {
   // passed validation
   $identity = $this->input->post('email');
@@ -60,7 +59,7 @@
 
   // display form
   $this->mViewData['form'] = $form;
-  $this->render('auth/sign_up');
+  $this->render('home');
   }
 
   /**
